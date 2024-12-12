@@ -136,7 +136,7 @@ $ NS_LOG="QuantumNetworkSimulator=info:QuantumPhyEntity=info|logic" ./ns3 run YO
 
 ## Possible Problems
 
-When working with different versions of ns-3, the methods for adding modules and linking libraries may vary. Our `CMakeLists.txt` file and this tutorial have been tested and are confirmed to work well with versions 3.39 to 3.41.  However, for newer versions, ns-3 might have updates and different requirements.
+When working with different versions of ns-3, the methods for adding modules and linking libraries may vary. Our `CMakeLists.txt` file and this tutorial have been tested and are confirmed to work well with versions **3.39 to 3.42**.  However, for newer versions, ns-3 might have updates and different requirements.
 
 If you encounter any issues, please verify your ns-3 version or consult the [official ns-3 tutorial](https://www.nsnam.org/documentation) for the proper procedures to add new modules.
 
