@@ -128,8 +128,15 @@ $ ./ns3 configure --enable-example
 $ ./ns3 run YOUR_EXAMPLE
 ```
 
-Simlarly, you can also run the examples with NS_LOG to see the information outputs by running the following:
+Similarly, you can also run the examples with NS_LOG to see the information outputs by running the following:
 
 ```bash
 $ NS_LOG="QuantumNetworkSimulator=info:QuantumPhyEntity=info|logic" ./ns3 run YOUR_EXAMPLE
 ```
+
+## Possible Problems
+
+When working with different versions of ns-3, the methods for adding modules and linking libraries may vary. Our `CMakeLists.txt` file and this tutorial have been tested and are confirmed to work well with versions 3.39 to 3.41.  However, for newer versions, ns-3 might have updates and different requirements.
+
+If you encounter any issues, please verify your ns-3 version or consult the [official ns-3 tutorial](https://www.nsnam.org/documentation) for the proper procedures to add new modules.
+
